@@ -20,7 +20,7 @@
 import { JSDOM } from "jsdom";
 import rehype from "rehype";
 
-export function wrap(
+export function wrapText(
   /** @type {{selector: string; pattern: RegExp; tagName: string; props?: Record<string,string>; transform?: (elem: HTMLElement) => void;}|undefined} */ opts,
 ) {
   if (!opts) {

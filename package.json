@@ -1,12 +1,12 @@
 {
-  "name": "@u1f992/rehype-wrap",
+  "name": "@u1f992/rehype-wrap-text",
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "homepage": "https://github.com/u1f992/rehype-wrap",
+  "homepage": "https://github.com/u1f992/rehype-wrap-text",
   "author": "Koutaro Mukai",
   "license": "GPL-3.0",
   "description": "",
