@@ -2,11 +2,11 @@
 
 import { VFM } from "@vivliostyle/vfm";
 
-import { wrap } from "../index.js";
+import { wrapText } from "../index.js";
 
 /** @type {import('@vivliostyle/cli').VivliostyleConfigSchema} */
 const vivliostyleConfig = {
-  title: "rehype-wrap",
+  title: "rehype-wrap-text",
   author: "u1f992",
   language: "ja",
   theme: "./css",
@@ -17,7 +17,7 @@ const vivliostyleConfig = {
   documentProcessor: (opts, meta) =>
     VFM(opts, meta)
       .use(
-        wrap.bind(null, {
+        wrapText.bind(null, {
           selector: "pre code",
           pattern: /␣/g,
           tagName: "span",
@@ -27,7 +27,7 @@ const vivliostyleConfig = {
         }),
       )
       .use(
-        wrap.bind(null, {
+        wrapText.bind(null, {
           selector: "p",
           pattern: /〓.+〓/g,
           tagName: "strong",
