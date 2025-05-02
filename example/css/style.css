@@ -1,0 +1,15 @@
+@page {
+  size: A5;
+}
+
+pre {
+  background-color: black;
+}
+
+pre code {
+  color: white;
+}
+
+strong {
+  color: red;
+}

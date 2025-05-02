@@ -1,0 +1,7 @@
+{
+  "name": "example",
+  "type": "module",
+  "devDependencies": {
+    "@vivliostyle/cli": "^8.20.0"
+  }
+}
